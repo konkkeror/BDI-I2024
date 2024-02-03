@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09FFAC3C-D413-EF5C-F568-35B3D7F12B29" name="TBL_MAESTROS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:17:35 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="EA6C861C-E0FB-0C7E-824C-54584782EE4C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:18:49 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B63AB55-5755-7B20-AB38-DBAC6AA59870" referredColumn="B6DE1333-799E-0AE9-0A89-E5B9CD31032D"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="7FD7C046-30F8-24FF-A339-7914F5C6BA52">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:18:35 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4971C0DE-F986-734C-9344-1C2BB0EC9CEB" referredColumn="2D519781-60FB-A5C4-BC4F-577CE2347B6E"/>
+</associations>
+</Column>
+<Column name="OTRO_CAMPO_DE_MAESTRO" id="9601C619-4F8C-3205-31E4-759DE2BF2D3F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:18:23 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC57F5C8-DE8A-6D13-D569-AC10D7812EE5" name="TBL_MAESTROS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:21:57 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA6C861C-E0FB-0C7E-824C-54584782EE4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88863ED8-EDBE-14CF-0183-CA3846AAB72F" name="TBL_MAESTROS_TBL_CARRERAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:18:35 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FD7C046-30F8-24FF-A339-7914F5C6BA52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93814C02-BD6F-6029-FE9D-1B796398A3C1" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:18:49 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA6C861C-E0FB-0C7E-824C-54584782EE4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="838690B6-D4C9-9BEC-7399-622F4C3215FD" name="TBL_CARRERAS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:40:24 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARRERA" id="2D519781-60FB-A5C4-BC4F-577CE2347B6E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:41:14 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_FACULTAD" id="A8E3B7B8-F96B-9517-932E-529D4D1DD926">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:49:49 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C88233B0-DF2F-18D5-C7EF-33CA5AEB018E" referredColumn="9F2B561C-B8D4-E136-E086-0A4871413D1D"/>
+</associations>
+</Column>
+<Column name="NOMBRE_CARRERA" id="DA03E3AE-32B7-644D-474B-20DAEE57EAAD">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:41:14 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES" id="6377EA54-5044-E2CF-6524-03C5A1CA2D5F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:41:14 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BE6C8B8-8437-0A3C-6E90-E33F4E7590A4" name="TBL_CARRERAS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:41:14 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D519781-60FB-A5C4-BC4F-577CE2347B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6801F85-5017-23BE-7815-565A6A3AFD79" name="TBL_CARRERAS_TBL_FACULTADES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:49:49 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8E3B7B8-F96B-9517-932E-529D4D1DD926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

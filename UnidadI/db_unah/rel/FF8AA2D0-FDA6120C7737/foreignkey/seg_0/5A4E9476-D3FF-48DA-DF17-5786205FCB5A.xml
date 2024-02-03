@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A4E9476-D3FF-48DA-DF17-5786205FCB5A" containerWithKeyObject="B7D84EC8-91D8-1604-0DAF-46829C724F8E" localFKIndex="B7398323-ACA3-297E-7CED-565053315469" name="TBL_EMPLEADOS_TBL_TIPOS_PUESTOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:32:18 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_PUESTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>766C1464-AC06-2989-2DB3-F188C1AB3B65</referredTableID>
+<keyObject>676CD847-DEC0-00B2-D460-A694AB71FB0D</keyObject>
+<referredKeyID>676CD847-DEC0-00B2-D460-A694AB71FB0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_PUESTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

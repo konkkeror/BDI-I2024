@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="766C1464-AC06-2989-2DB3-F188C1AB3B65" name="TBL_TIPOS_PUESTOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:31:34 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_PUESTO" id="FDE4E8C7-888D-312D-6DE0-5E6A804D246A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:32:11 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUESTO" id="09EE7A6A-D77E-F2F1-CDDC-0700D3130EBB">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:32:11 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="676CD847-DEC0-00B2-D460-A694AB71FB0D" name="TBL_TIPOS_PUESTOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:32:11 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE4E8C7-888D-312D-6DE0-5E6A804D246A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

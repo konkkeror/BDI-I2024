@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A271C8E-9D05-B830-4279-71F807FE945A" name="TBL_PAISES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-30 00:38:30 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAIS" id="6F308BBD-D7AE-2291-E5B0-47DD6D2889B1">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-30 00:39:39 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAIS" id="F05ACA1F-4438-62FA-C417-C100FFA7021D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-30 00:39:39 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FDEE47B-81AF-968D-F8ED-D83F3F7A8933" name="TBL_PAISES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-01-30 00:39:39 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F308BBD-D7AE-2291-E5B0-47DD6D2889B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

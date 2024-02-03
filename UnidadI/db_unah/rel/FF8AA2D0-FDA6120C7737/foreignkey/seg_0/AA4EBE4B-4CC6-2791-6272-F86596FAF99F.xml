@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA4EBE4B-4CC6-2791-6272-F86596FAF99F" containerWithKeyObject="4E5202B6-77FF-3E09-23A7-3BA7B0B9B22F" localFKIndex="9157067B-4F25-A7EA-2414-19EE014E293E" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:20:47 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>TBL_DEPARTAMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D910961E-6432-FD70-865A-937A2A3413A6</referredTableID>
+<keyObject>01309B64-0754-8253-055F-9DF761B52A0E</keyObject>
+<referredKeyID>01309B64-0754-8253-055F-9DF761B52A0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_DEPARTAMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

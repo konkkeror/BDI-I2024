@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7D84EC8-91D8-1604-0DAF-46829C724F8E" name="TBL_EMPLEADOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:13:40 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="B6DE1333-799E-0AE9-0A89-E5B9CD31032D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO_SUPERIOR" id="8186D0CA-AFBF-02F7-E965-5A194EAF506C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:30:30 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5038A3E2-D354-8138-3D91-6EA809525C98" referredColumn="B6DE1333-799E-0AE9-0A89-E5B9CD31032D"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_PUESTO" id="DC1415D1-1E2A-2DF1-A8E8-914208062179">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:32:18 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A4E9476-D3FF-48DA-DF17-5786205FCB5A" referredColumn="FDE4E8C7-888D-312D-6DE0-5E6A804D246A"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="E247B2D6-11F0-99A6-308C-FA581D8F11FE">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="60B1CCF1-E004-3BC4-CC85-69ACE37C73D0">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="C411ACD5-4281-38B1-D5E2-9C6C40FDABB1">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="1D054DDD-7358-C952-355B-8FA58C2993D7">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_BASE" id="354F7EBD-4D89-D6C4-0C47-41E41E8F90E2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="192DF411-2ED7-19AD-D07D-0E6D1201D600">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:16:01 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E943C04E-06AC-7DF1-83CA-8F7C0A5BA764" referredColumn="FBABAED6-D613-4730-116D-1A5171DE6AD9"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="33EFC02F-3C1A-628B-13CF-6D93A19ADC46">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:16:06 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6952AB6F-19B6-41ED-4F7D-7AAFB2980FEE" referredColumn="FBABAED6-D613-4730-116D-1A5171DE6AD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="317AB86B-8D98-4B1A-012F-5A6EF97A44AB" name="TBL_EMPLEADOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:15:04 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6DE1333-799E-0AE9-0A89-E5B9CD31032D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57D36AFD-44F9-6792-1641-419239C8EB0B" name="TBL_EMPLEADOS_TBL_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:16:01 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="192DF411-2ED7-19AD-D07D-0E6D1201D600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C97D602F-83EF-8D77-ED6E-8C54F5BA6189" name="TBL_EMPLEADOS_TBL_LUGARES_FKv2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:16:06 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33EFC02F-3C1A-628B-13CF-6D93A19ADC46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE8747D0-4671-4752-CB84-49BBB632B509" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:30:30 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8186D0CA-AFBF-02F7-E965-5A194EAF506C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7398323-ACA3-297E-7CED-565053315469" name="TBL_EMPLEADOS_TBL_TIPOS_PUESTOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-02 00:32:18 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC1415D1-1E2A-2DF1-A8E8-914208062179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

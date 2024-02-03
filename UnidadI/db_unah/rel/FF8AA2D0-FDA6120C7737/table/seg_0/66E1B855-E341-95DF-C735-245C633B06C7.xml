@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66E1B855-E341-95DF-C735-245C633B06C7" name="TBL_CARRERAS_X_ALUMNOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:42:26 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUENTA" id="362775C8-A173-E604-5FD5-6AB7D8C2F8EE">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:43:51 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D70C6C55-DB6B-2B09-29C5-92709D77C1F4" referredColumn="DC91244C-1CB8-E533-60B0-49913449F94C"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="33EF019F-C391-ECE9-BE66-472778AA2D37">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:43:57 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB055D91-DBE1-A4B3-1953-34826DF7BE1D" referredColumn="2D519781-60FB-A5C4-BC4F-577CE2347B6E"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO" id="6CB25B22-FE71-28CA-D999-72201D735A1E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:45:38 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES_APROBADAS" id="F3D16270-6599-06EF-796A-26F628D5C2E1">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:45:38 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B11ED47D-CB75-313E-EE87-0FE134DE6A70" name="TBL_CARRERAS_X_ALUMNOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:44:49 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="362775C8-A173-E604-5FD5-6AB7D8C2F8EE"/>
+<colUsage columnID="33EF019F-C391-ECE9-BE66-472778AA2D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E11DEE1E-0B2C-EB71-C148-9BBC7A9327D3" name="TBL_CARRERAS_X_ALUMNOS_TBL_ALUMNOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:43:51 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="362775C8-A173-E604-5FD5-6AB7D8C2F8EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D66D46A-C8BB-B088-29E3-E64BD0CB0C4C" name="TBL_CARRERAS_X_ALUMNOS_TBL_CARRERAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:43:57 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33EF019F-C391-ECE9-BE66-472778AA2D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

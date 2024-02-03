@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF243D8E-312B-7153-28CD-BC09A3830FDE" name="TBL_LUGARES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:32:25 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="FBABAED6-D613-4730-116D-1A5171DE6AD9">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:33:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="9AC9E2A1-DC04-4B0C-496B-05B797898488">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:34:54 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28FA3E14-4873-4EA2-8174-45C3FE8598D6" referredColumn="111F2624-67F3-8AAA-92EA-1E285FAA0541"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="89365E46-86BB-BD35-5F2B-FB83DB4AA59E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:35:41 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="161F68A5-07CD-9489-171B-99285FE246A4" referredColumn="FBABAED6-D613-4730-116D-1A5171DE6AD9"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="AAE8BE6B-8F90-FDEB-7D33-433CA96B7BC5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:33:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="A6F86888-2351-F4B4-1AAF-2C164FB2C5B1">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:33:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="7BF076EC-1D3A-C4B1-C173-A1ABB6E70E68">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:33:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFFCFCEF-E6D7-DE97-28A0-43B91DCE0C3B" name="TBL_LUGARES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:33:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBABAED6-D613-4730-116D-1A5171DE6AD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30FCA44A-4F5A-64C1-FD33-5D576F5FBC46" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:34:54 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC9E2A1-DC04-4B0C-496B-05B797898488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="191D918B-E6F2-EAF8-CBD0-452015C3B864" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:35:41 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89365E46-86BB-BD35-5F2B-FB83DB4AA59E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

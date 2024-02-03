@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E064A63-F74A-4F0E-3EE4-AF271B0A19E9" containerWithKeyObject="5103FB7C-5133-DE74-30FC-3F910EAF3EB5" localFKIndex="773AC8CC-9CB0-CE2B-C36D-DD70DC331AB3" name="TBL_ALUMNOS_TBL_MUNICIPIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:21:13 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>TBL_MUNICIPIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E5202B6-77FF-3E09-23A7-3BA7B0B9B22F</referredTableID>
+<keyObject>7C62AB9A-F73A-9F17-7F4C-1D4F7B820389</keyObject>
+<referredKeyID>7C62AB9A-F73A-9F17-7F4C-1D4F7B820389</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MUNICIPIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

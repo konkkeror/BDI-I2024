@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E5202B6-77FF-3E09-23A7-3BA7B0B9B22F" name="TBL_MUNICIPIOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:16:31 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MUNICIPIO" id="363538AB-E41A-405F-FA60-43870CA2BB5D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:17:02 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DEPARTAMENTO" id="015B48B7-6105-9C96-3634-E197914DA3CF">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:20:47 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA4EBE4B-4CC6-2791-6272-F86596FAF99F" referredColumn="2F0DEF04-1501-4182-CF89-D225979D4185"/>
+</associations>
+</Column>
+<Column name="NOMBRE_MUNICIPIO" id="E97A32DD-2C19-9B25-CDB6-A98CD2B09467">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:17:02 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C62AB9A-F73A-9F17-7F4C-1D4F7B820389" name="TBL_MUNICIPIOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:17:02 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="363538AB-E41A-405F-FA60-43870CA2BB5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9157067B-4F25-A7EA-2414-19EE014E293E" name="TBL_MUNICIPIOS_TBL_DEPARTAMENTOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:20:47 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015B48B7-6105-9C96-3634-E197914DA3CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

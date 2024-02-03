@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="376AEA64-7661-E50C-75BF-76A48C7438C3" name="TBL_TIPOS_LUGARES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:34:02 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="111F2624-67F3-8AAA-92EA-1E285FAA0541">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:34:29 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LUGAR" id="E52AA31A-7395-3BE6-5698-1B913D2ECE7D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:34:29 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39324C98-BAC6-8EFA-73FD-C16BFF331360" name="TBL_TIPOS_LUGARES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-01 00:34:29 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111F2624-67F3-8AAA-92EA-1E285FAA0541"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
