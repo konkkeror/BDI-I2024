@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44A55D07-0473-9C35-9A86-D2CA4A709D74" name="TBL_HISTORICO_SALDO">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:17:24 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORICO" id="BF0EC201-6FB8-5B34-E726-8650CFF7D3AF">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:02 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_ACREDITACION" id="6E471CEA-7740-B551-DE57-0D0D676E609B">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88FC2756-D3E4-E8CF-E150-9EA858A63A98" referredColumn="D47C7B5B-B431-0581-DD05-D7AB3A0E011E"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_TELEFONICA" id="AF751068-89EF-2A6C-8A4E-BEE94B8AEE81">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:23:53 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DA6DC74-9AEC-417B-8551-FCA82F7E8EA7" referredColumn="F40725BA-C899-8F10-4F04-8557BE842CEF"/>
+</associations>
+</Column>
+<Column name="CODIGO_SUSCRIPTOR" id="043BA69A-FD55-8F04-C130-01F36E3C5194">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:24:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B09F7F22-4ADD-738F-CD0F-3BE97DC03B6B" referredColumn="1DAC625C-83F9-BC00-AAAE-F75CBB9AE9BD"/>
+</associations>
+</Column>
+<Column name="FECHA_ACREDITACION" id="AD9CF5F6-A0A1-5A30-2DE4-2FBCD4963189">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:02 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_ACREDITADO" id="0A1C7A4D-9ECC-A5BA-7FD8-21710B5D94C5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:02 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DEF6BD1-A23B-EF5F-9ECC-92CBC3928250" name="TBL_HISTORICO_SALDO_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:02 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0EC201-6FB8-5B34-E726-8650CFF7D3AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31070F23-C8A1-0B58-05B8-B4F01D1CC610" name="TBL_HISTORICO_SALDO_TBL_TIPOS_ACREDITACIONES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E471CEA-7740-B551-DE57-0D0D676E609B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98EA568C-4A29-5B09-37A2-D17002991171" name="TBL_HISTORICO_SALDO_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:23:53 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF751068-89EF-2A6C-8A4E-BEE94B8AEE81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5D3FEDD-B68D-0D4E-FA09-B547FCB18E5C" name="TBL_HISTORICO_SALDO_TBL_SUSCRIPTORES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:24:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="043BA69A-FD55-8F04-C130-01F36E3C5194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

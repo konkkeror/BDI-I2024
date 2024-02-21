@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAF17F1E-0C49-6D12-F308-607D24C8B9BB" name="TBL_TRABAJOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:12:57 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRABAJO" id="9287ACCD-28CA-6703-8880-DD4FFAB55F12">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:14:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="094F299A-CAB4-947E-965A-D9F92FC11A9A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:17:53 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84E2B4C7-48BE-0D98-0B8C-32EEF5B01AB3" referredColumn="86D8A2C0-EF8B-A8D2-758A-12F5BEC23453"/>
+</associations>
+</Column>
+<Column name="TITULO_TRABAJO" id="F738AB2D-6EEC-DA91-17A6-E583C878C524">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:14:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_EMPRESA" id="B630C4DC-65B0-3ED3-FC55-40AD3FE9133B">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:14:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIAL" id="1BB6BAD2-B285-CB1D-0AFD-1BDC7B90931D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:14:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINAL" id="BBC7EB3D-18C9-E56B-9508-2159B3F7FD11">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:14:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94E0D563-E2D8-AF8F-EB88-13C16C9E51C9" name="TBL_TRABAJOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:15:20 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9287ACCD-28CA-6703-8880-DD4FFAB55F12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6BC21E9-5B9B-DECF-3C4E-5E82E3DB18E4" name="TBL_TRABAJOS_TBL_USUARIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:17:53 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="094F299A-CAB4-947E-965A-D9F92FC11A9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

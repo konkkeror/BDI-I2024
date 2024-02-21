@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A92FA87-E482-94E4-3845-A55485A126B2" name="TBL_LIKES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:09:27 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LIKE" id="BE0F85B3-2731-021C-273F-75A1AA9221E4">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:09:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="0BF68A1E-CD9B-1BB1-F6E6-7520FDAC6157">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:10:13 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD9F5B6D-CDB3-65D3-E532-860B88E7E7F8" referredColumn="86D8A2C0-EF8B-A8D2-758A-12F5BEC23453"/>
+</associations>
+</Column>
+<Column name="CODIGO_FOTOGRAFIA" id="863B220D-DC85-0D92-FAD9-D1BF30EE8DD5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:10:30 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2272EDA4-B2DE-BE4C-E6C1-4843273B58CF" referredColumn="C53492C3-276D-D79C-FB88-F077E222306A"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="782E597D-E37E-1548-F479-52292C08968D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:10:43 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEB4698A-AAA2-6592-633F-D8CCCA7FF974" referredColumn="AFD9E6CF-FACA-A0E3-9C2A-F23E92C41AE5"/>
+</associations>
+</Column>
+<Column name="FECHA_LIKE" id="AA9324FE-2469-DEA5-2BD5-C446FF4C762A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:09:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19B3983F-497D-3B3C-B79F-6049B299F76A" name="TBL_LIKES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:09:59 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE0F85B3-2731-021C-273F-75A1AA9221E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65BB1AF5-9A18-0AD5-71CB-FD672CD2CD1A" name="TBL_LIKES_TBL_USUARIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:10:13 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF68A1E-CD9B-1BB1-F6E6-7520FDAC6157"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96B61C5E-8460-B6DD-DC60-4121F9DEF8EA" name="TBL_LIKES_TBL_FOTOGRAFIAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:10:30 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="863B220D-DC85-0D92-FAD9-D1BF30EE8DD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="129A417F-2E6E-3529-5CB7-F6612129059C" name="TBL_LIKES_TBL_PUBLICACIONES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:10:43 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="782E597D-E37E-1548-F479-52292C08968D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

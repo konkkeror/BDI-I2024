@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A4C6BF8-29D0-0E64-E809-C52A4AC31A68" name="TBL_PAGOS_PLANES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:15:12 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAGO" id="140B4366-6EE9-D5A8-C265-EE1DB52F9BAC">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:20:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LINEA_TELEFONICA" id="7823042C-726E-ABE8-3B33-D58EA99D1C13">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD6C8B4C-FFD7-A120-3360-F289EAF8D063" referredColumn="F40725BA-C899-8F10-4F04-8557BE842CEF"/>
+</associations>
+</Column>
+<Column name="CODIGO_PLAN" id="0A6D1654-F370-E971-3DD0-75A4E66C2E9D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6F9CA07-8BD6-F44B-ED0D-00FDA3195479" referredColumn="B4B0F18A-AA1F-03D0-5BE3-321E2F85C4EB"/>
+</associations>
+</Column>
+<Column name="VALOR_PAGO" id="7D2C4832-DC6C-A90B-3A6D-5F56E82C9A38">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:20:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_CORTE" id="0D08D0F8-4A5C-F0CD-CCB1-098579259C02">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:39 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN_CORTE" id="DA0D1DA9-DB0C-426F-D0B6-52547E9403AD">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:39 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D4E3299-70A5-5DBC-69B7-30C720AB298B" name="TBL_PAGOS_PLANES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:44 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="140B4366-6EE9-D5A8-C265-EE1DB52F9BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2091FC05-D459-A751-F4D9-AF35F8D5CC9F" name="TBL_PAGOS_PLANES_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7823042C-726E-ABE8-3B33-D58EA99D1C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="606A8BF8-9C05-FFB6-670C-BA0880FBA287" name="TBL_PAGOS_PLANES_TBL_PLANES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:21:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6D1654-F370-E971-3DD0-75A4E66C2E9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

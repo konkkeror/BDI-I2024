@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88FC2756-D3E4-E8CF-E150-9EA858A63A98" containerWithKeyObject="44A55D07-0473-9C35-9A86-D2CA4A709D74" localFKIndex="31070F23-C8A1-0B58-05B8-B4F01D1CC610" name="TBL_HISTORICO_SALDO_TBL_TIPOS_ACREDITACIONES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_ACREDITACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDD16D94-CC09-792D-60B1-616C572FA2B9</referredTableID>
+<keyObject>7C3D8B68-264C-7311-A750-D0DC1377571E</keyObject>
+<referredKeyID>7C3D8B68-264C-7311-A750-D0DC1377571E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_ACREDITACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95EAE58A-F833-3170-3043-EEE0D2E09CEF" name="TBL_SERVICIOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:14:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SERVICIO" id="925055E0-889F-170E-1F32-D8EBDFAE7CAB">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:15:15 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SERVICIO" id="4A9CBF6D-744A-33F9-2A91-89ACC367BA25">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:15:15 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D03025E6-F31E-899C-5E16-39A2A847A96B" name="TBL_SERVICIOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:15:15 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="925055E0-889F-170E-1F32-D8EBDFAE7CAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

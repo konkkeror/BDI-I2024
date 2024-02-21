@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EC2BBB5-E60F-EBCE-F4B1-1661DD07186A" containerWithKeyObject="608A7BFA-C366-D5DF-C78E-3533BB2274B1" localFKIndex="D1EB6CD2-3E62-032F-52BC-1DD06E305CEA" name="TBL_MODELOS_TBL_MARCAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:12:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<referredTableLongName>TBL_MARCAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B4C1753-9D51-70C9-B747-9057FDF12D9F</referredTableID>
+<keyObject>F178D3AA-BAD5-132E-5EF9-AC1CEE9B44B2</keyObject>
+<referredKeyID>F178D3AA-BAD5-132E-5EF9-AC1CEE9B44B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MARCA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

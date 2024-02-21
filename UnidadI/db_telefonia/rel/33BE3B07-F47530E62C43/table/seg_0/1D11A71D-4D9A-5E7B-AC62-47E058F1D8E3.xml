@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D11A71D-4D9A-5E7B-AC62-47E058F1D8E3" name="TBL_LUGARES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:36:33 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="7ECFF5FA-9BC4-B97E-7433-B2B5878E5E1A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:11 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="FF9E6D35-86FC-96E1-0439-439DD8F36418">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:49 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1643346-4B2A-3C3F-69CC-3DED128D36D4" referredColumn="4F10C5F4-7C1A-6143-9048-4F941031AB72"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="B21FDBD5-FCE2-E35B-2541-3201DEF32595">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:54 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD145E54-1DDD-32BF-4110-792313FC12F7" referredColumn="7ECFF5FA-9BC4-B97E-7433-B2B5878E5E1A"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="8EC76B96-4639-C84E-AB72-68C48B8670A7">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:11 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="424C85BD-BFF7-233A-A9F4-E657905A73E0">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:11 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="547561EF-2E20-47A3-DEDC-13BDB6E773DD">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:11 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EB3EE91-7383-0755-6E13-74407FE2F381" name="TBL_LUGARES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:11 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ECFF5FA-9BC4-B97E-7433-B2B5878E5E1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EBE9967-3936-9E98-5E45-77182386BDDD" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:49 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9E6D35-86FC-96E1-0439-439DD8F36418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="376D838F-A2DA-5832-B5B2-970EDB96E32B" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:54 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B21FDBD5-FCE2-E35B-2541-3201DEF32595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

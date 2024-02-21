@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="608A7BFA-C366-D5DF-C78E-3533BB2274B1" name="TBL_MODELOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:11:04 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MODELO" id="E350455D-5D31-3A86-CF59-C5B7BB7CB5CF">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:11:32 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MARCA" id="B0D91E09-00B5-29AF-8D3C-C2DFE1441932">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:12:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EC2BBB5-E60F-EBCE-F4B1-1661DD07186A" referredColumn="EF1B8605-AB67-6AA4-67B4-2F3E16F6D168"/>
+</associations>
+</Column>
+<Column name="NOMBRE_MODELO" id="6CD4E6D8-DDED-E5DE-5443-6A45DB82512C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:11:32 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A99F6EEB-5A82-C622-C6B2-680A707F7AD1" name="TBL_MODELOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:11:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E350455D-5D31-3A86-CF59-C5B7BB7CB5CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1EB6CD2-3E62-032F-52BC-1DD06E305CEA" name="TBL_MODELOS_TBL_MARCAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:12:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D91E09-00B5-29AF-8D3C-C2DFE1441932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

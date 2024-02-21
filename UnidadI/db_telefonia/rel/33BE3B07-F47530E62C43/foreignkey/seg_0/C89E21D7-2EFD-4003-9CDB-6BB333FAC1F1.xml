@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C89E21D7-2EFD-4003-9CDB-6BB333FAC1F1" containerWithKeyObject="46E1C5F5-B273-984F-021A-26A09366952A" localFKIndex="62957BF7-5E7A-D397-40E0-71A807253E01" name="TBL_LINEAS_TELEFONICAS_TBL_TIPOS_LINEAS_TELEFONICAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:52:25 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_LINEAS_TELEFONICAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6087D38-AE23-3EC7-ECE9-F89EE8237BF0</referredTableID>
+<keyObject>EC251DA2-695E-074C-6282-BE1E02BD8814</keyObject>
+<referredKeyID>EC251DA2-695E-074C-6282-BE1E02BD8814</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_LINEA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

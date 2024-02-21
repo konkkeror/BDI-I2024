@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF27509F-D085-61DC-2CEF-ACDEAE232EF6" name="TBL_USUARIOS_X_GRUPO">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:18:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA_INGRESO" id="4FDCD2A5-29CE-2820-EBD9-9DF8340A95E8">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:19:52 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="606FC317-A999-CE2C-D224-26FA8D4DAC5D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:19:58 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26ED17B7-A292-7DDB-E069-EF3453106D2B" referredColumn="86D8A2C0-EF8B-A8D2-758A-12F5BEC23453"/>
+</associations>
+</Column>
+<Column name="CODIGO_GRUPO" id="9481CA71-382D-B532-8308-82D4D320E5EA">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:20:11 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1EA00A1-C53A-FF20-0777-57BE870A69B7" referredColumn="7EE78A41-0F9E-0266-8A76-D367E7D8403D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00E0460E-F6EC-C066-7AA7-B0410472BB2C" name="TBL_USUARIOS_X_GRUPO_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:20:28 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9481CA71-382D-B532-8308-82D4D320E5EA"/>
+<colUsage columnID="606FC317-A999-CE2C-D224-26FA8D4DAC5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CC8FB3B-CC44-3BE2-37E7-C41FFC095A38" name="TBL_USUARIOS_X_GRUPO_TBL_USUARIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:19:58 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606FC317-A999-CE2C-D224-26FA8D4DAC5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CA533C3-50C7-1F6E-7E37-011C5154109E" name="TBL_USUARIOS_X_GRUPO_TBL_GRUPOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:20:11 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9481CA71-382D-B532-8308-82D4D320E5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

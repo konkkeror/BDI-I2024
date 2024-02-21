@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1315D1DF-5072-C618-389E-A227A4A36EAD" name="TBL_PLANES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:10:21 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLAN" id="B4B0F18A-AA1F-03D0-5BE3-321E2F85C4EB">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:12:24 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLAN" id="03D296BE-DF4E-3D06-8D52-1481C376383A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:12:24 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="61AB416B-288E-8A2D-B806-839BCC9A4102">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:12:24 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="F0E490EE-29CD-C602-1C21-0944C07F02BF">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:12:24 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="CA83FCD0-97F1-93FB-3453-E040E263F796">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:14:18 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CD537B0-A9E1-2846-1B84-1E30AEC514D4" name="TBL_PLANES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:12:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4B0F18A-AA1F-03D0-5BE3-321E2F85C4EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

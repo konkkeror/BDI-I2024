@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3D1DC05-3CB1-9436-A3A9-7E1E5D998CF2" name="TBL_EMPLEADOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:38:45 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="EB6F2859-F449-4EE9-5D11-D6FD106EAA68">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO_SUPERIOR" id="A544BA60-DB1B-F641-5AF3-E5D09CA5CC96">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:40:03 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18FB1277-2EEF-D68E-69EC-7A761CEBFB50" referredColumn="EB6F2859-F449-4EE9-5D11-D6FD106EAA68"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="957CBCA9-F87B-B7B6-7F75-64E5C9FD263A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="2F431493-86F2-2BDD-DF0B-A0B6D5F5943D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDENTIFICACION" id="4EEFACF6-7A4D-ED82-D652-437BDA16B5FE">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="BFA0AA6C-1DED-BC89-822A-545261D4A977">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="A7FDB9BC-4F44-5094-026B-4B0BCAFEC49D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="3C67E66C-8D75-7BE4-248A-FDF6F7DCEC62">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:50 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PUESTO" id="CE1206F3-D54A-7386-6F45-83B6F2170B00">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:41:16 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18FCBAF4-D880-1BA4-FF5B-51C142A9CB14" referredColumn="39827D6D-DB79-007B-FF33-23133C9EF1CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293D0CD8-29BC-F4B6-3103-B92213D4D221" name="TBL_EMPLEADOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:39:58 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6F2859-F449-4EE9-5D11-D6FD106EAA68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E833756-B19A-1582-BA31-818BC76A6CBA" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:40:03 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A544BA60-DB1B-F641-5AF3-E5D09CA5CC96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC9A78C8-0540-E7A2-640E-2FBCC72D1478" name="TBL_EMPLEADOS_TBL_PUESTOS_EMPLEADOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:41:16 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE1206F3-D54A-7386-6F45-83B6F2170B00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

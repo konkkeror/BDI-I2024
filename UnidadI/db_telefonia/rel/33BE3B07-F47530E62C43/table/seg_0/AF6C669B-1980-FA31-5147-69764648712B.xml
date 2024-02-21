@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF6C669B-1980-FA31-5147-69764648712B" name="TBL_PAQUETES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:26:41 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAQUETE" id="88DCAEB6-4125-596E-905E-B1ED6029680B">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAQUETE" id="C16D4AE7-B464-A754-A930-BFBA3317D2B5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_PAQUETE" id="75AD9C19-EB4B-3D37-5A0B-B233F3C524C4">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION" id="A2EA4F07-5AF4-CE2D-4D69-A445768219AB">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_EFECTIVIDAD" id="636D2976-CC85-6F2F-1E8D-E7A2B14E6A91">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN_EFECTIVIDAD" id="A6E1EBF6-1C87-7D34-471F-9BA9F1DA838D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73471B15-1DCF-601D-D133-8FC298D8FCD4" name="TBL_PAQUETES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:28:30 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88DCAEB6-4125-596E-905E-B1ED6029680B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

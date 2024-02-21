@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BF37AD1-402F-82B9-6443-4CB9F1CE6ECE" name="TBL_FOTOS_X_ALBUM">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:38:44 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALBUM" id="DA6215C7-23BC-E711-1B0C-CA3F22EAF5A4">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:39:58 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="019AF332-0AF2-F4AE-55D8-E4FF8435B174" referredColumn="96C4D3E6-E77B-39AE-7761-E1B0C8262AE2"/>
+</associations>
+</Column>
+<Column name="CODIGO_FOTOGRAFIA" id="B9053EF4-7E90-58CC-A254-BFBF22E6B54F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:40:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F54BA4A9-D7B8-78A5-EC75-A97EFBB15EA0" referredColumn="C53492C3-276D-D79C-FB88-F077E222306A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D050CC1A-40C3-12EF-C2AE-35A27BDB7DE7" name="TBL_FOTOS_X_ALBUM_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:40:50 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA6215C7-23BC-E711-1B0C-CA3F22EAF5A4"/>
+<colUsage columnID="B9053EF4-7E90-58CC-A254-BFBF22E6B54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="883D1820-E7D1-3390-F0F0-37569792BFC9" name="TBL_FOTOS_X_ALBUM_TBL_ALBUMES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:39:58 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA6215C7-23BC-E711-1B0C-CA3F22EAF5A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A51A5F27-BBEC-C705-6031-AEB38E179D18" name="TBL_FOTOS_X_ALBUM_TBL_FOTOGRAFIAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:40:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9053EF4-7E90-58CC-A254-BFBF22E6B54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

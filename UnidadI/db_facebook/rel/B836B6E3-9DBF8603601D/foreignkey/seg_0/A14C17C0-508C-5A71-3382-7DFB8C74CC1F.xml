@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A14C17C0-508C-5A71-3382-7DFB8C74CC1F" containerWithKeyObject="9A3DAAD1-5D8E-63D7-4C24-F099ED7A0163" localFKIndex="A1048D2E-AA58-B659-65BB-C3E4C206C647" name="TBL_MENSAJES_TBL_MENSAJES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-14 00:23:37 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<referredTableLongName>TBL_MENSAJES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A3DAAD1-5D8E-63D7-4C24-F099ED7A0163</referredTableID>
+<keyObject>D2210767-4F03-9F5C-68B1-4738381803AF</keyObject>
+<referredKeyID>D2210767-4F03-9F5C-68B1-4738381803AF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_MENSAJE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

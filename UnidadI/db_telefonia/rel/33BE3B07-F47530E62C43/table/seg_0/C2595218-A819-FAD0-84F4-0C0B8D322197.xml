@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2595218-A819-FAD0-84F4-0C0B8D322197" name="TBL_COMPRA_PAQUETES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:35:22 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMPRA" id="3A659A77-2B11-144E-0075-ECC2D4C28B99">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:47:10 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LINEA_TELEFONICA" id="107F0004-A87B-5632-C9B5-8E9A2BFE0E58">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:47:53 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF085874-46D4-1D0B-48C8-13CC37289673" referredColumn="F40725BA-C899-8F10-4F04-8557BE842CEF"/>
+</associations>
+</Column>
+<Column name="CODIGO_PAQUETE" id="1E92838F-B72E-EADD-9D3A-C4D5D0D1A718">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:48:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1ED86BD-8016-BAB9-0A57-B9443197A764" referredColumn="88DCAEB6-4125-596E-905E-B1ED6029680B"/>
+</associations>
+</Column>
+<Column name="VALOR_COMPRA" id="0A013004-180A-C974-25A3-78A803606D76">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:47:10 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISV" id="0EA24CBA-E0C4-77E5-437F-7F2180C6FFF6">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:47:46 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B95042EA-60C1-9072-5E3A-9EC7CB12C89F" name="TBL_COMPRA_PAQUETES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:47:46 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A659A77-2B11-144E-0075-ECC2D4C28B99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BD698F7-BEC8-B5B3-4F86-C881F9FBA900" name="TBL_COMPRA_PAQUETES_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:47:53 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="107F0004-A87B-5632-C9B5-8E9A2BFE0E58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30C3CB54-3780-9B91-3EAE-A71DB3668C11" name="TBL_COMPRA_PAQUETES_TBL_PAQUETES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:48:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E92838F-B72E-EADD-9D3A-C4D5D0D1A718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

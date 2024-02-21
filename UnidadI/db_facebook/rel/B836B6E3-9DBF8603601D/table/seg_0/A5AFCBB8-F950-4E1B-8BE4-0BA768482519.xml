@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5AFCBB8-F950-4E1B-8BE4-0BA768482519" name="TBL_USUARIOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:39:13 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="86D8A2C0-EF8B-A8D2-758A-12F5BEC23453">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO_CIVIL" id="3F1C3283-5B12-055F-CFDF-3F62C8E2EB78">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:20 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53FE8497-2EB4-FD07-C657-012AB959B42F" referredColumn="BE0A20A3-502A-F3AD-7943-C18661B2D364"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="A3B5BA54-F544-1A3D-7A86-F7C66781363F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:29 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D35556B5-731A-E0F7-74D5-0FE624D1EBBE" referredColumn="0E967F21-5137-E1BE-095E-B09A4D19E838"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="012161C0-303E-9B8A-F391-742F2AE19CC2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:46:29 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03B02516-3639-F2E7-8B80-96FE32C52183" referredColumn="0E967F21-5137-E1BE-095E-B09A4D19E838"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="93F2D7DC-2D0D-E671-8416-7E30CE86BB4D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="9AC67511-15F1-2D56-FA67-2445AE66B59E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_USUARIO" id="258B64A9-BD8A-648D-6263-597212AF8505">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="88ABD366-72BE-26BD-AB9F-162B36605624">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="6C2104BD-7AD7-A4BF-9932-FBB6A35A1548">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="2A00700E-A730-FFE6-CE07-634D7E040718">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA" id="560DED2C-C0F0-0644-44A5-E0B2BE8FE1D5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="2AB1B5E0-ACC4-3AA2-8BCE-A4A736482E3D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="C2B43935-A418-315D-B814-603F858A1437">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_RECUPERACION" id="CFA2B3D5-24E7-EE6D-DE13-BD62B1AEF3C2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6431D8D3-87E1-75B5-3C35-9D5ACA5680A6" name="TBL_USUARIOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:42:55 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D8A2C0-EF8B-A8D2-758A-12F5BEC23453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A901E63F-0457-6E06-40C1-13F59EA38D59" name="TBL_USUARIOS_TBL_ESTADOS_CIVILES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:20 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1C3283-5B12-055F-CFDF-3F62C8E2EB78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B28421B-3CDE-CF46-0871-6FE9627B902B" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:29 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B5BA54-F544-1A3D-7A86-F7C66781363F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="010945B4-295C-8F72-5517-5974AA3CEEDA" name="TBL_USUARIOS_TBL_LUGARES_FKv2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:46:29 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="012161C0-303E-9B8A-F391-742F2AE19CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

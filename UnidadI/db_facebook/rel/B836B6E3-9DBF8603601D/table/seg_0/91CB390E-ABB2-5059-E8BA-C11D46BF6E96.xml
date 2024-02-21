@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91CB390E-ABB2-5059-E8BA-C11D46BF6E96" name="TBL_LUGARES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:43:36 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="0E967F21-5137-E1BE-095E-B09A4D19E838">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="0676FDBF-81E3-4160-86CB-B235F517BA8A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:45:33 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B6AA466-402C-1365-F2E0-C792B607E708" referredColumn="6216E2AD-91EF-813A-DD5F-57E1667DA349"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="20DB24F3-9447-62CF-C1AB-3DBF6975665A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="556D71DA-74DA-F379-16BC-08971C4735A9">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="DE63BF17-00A2-517F-5C91-A93AED6B710C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="98108F50-E211-DAD2-ECA4-07ED1EB26021">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:40 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3C306BD-18D0-6277-5F90-0CA31BBC6366" referredColumn="0E967F21-5137-E1BE-095E-B09A4D19E838"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCCC47A9-3A21-A568-719D-9659E1186AB8" name="TBL_LUGARES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:02 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E967F21-5137-E1BE-095E-B09A4D19E838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7A4FD8D-BBEE-A6DF-48A3-E8048EA47677" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:44:40 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98108F50-E211-DAD2-ECA4-07ED1EB26021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6637130-86DC-7DEA-4CF9-6E11CF2BC872" name="TBL_LUGARES_TBL_TIPOS_LUGAR_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:45:33 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0676FDBF-81E3-4160-86CB-B235F517BA8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

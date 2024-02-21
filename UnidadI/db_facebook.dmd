@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="db_facebook" id="5D48B4A8-50A9-655A-05C1-54896B727A50" version="3.5">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-08 00:39:01 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5D48B4A8-50A9-655A-05C1-54896B727A50</designId>
+</OSDM_Design>

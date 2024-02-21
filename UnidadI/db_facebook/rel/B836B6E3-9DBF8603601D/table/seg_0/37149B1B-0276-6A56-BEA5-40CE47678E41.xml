@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37149B1B-0276-6A56-BEA5-40CE47678E41" name="TBL_ALBUMES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:32:50 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALBUM" id="96C4D3E6-E77B-39AE-7761-E1B0C8262AE2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:33:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="7791C51E-2B01-3BE2-1E3B-67E24D9F29E3">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:34:08 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75EC75F4-B9A5-57E6-8DF2-60A471A5240D" referredColumn="86D8A2C0-EF8B-A8D2-758A-12F5BEC23453"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_FOTOS" id="C226C6E3-F4F5-6868-B002-2A2ABB0FCCF0">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:33:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ALBUM" id="7FA48F97-2A40-0D21-656A-9D268765B07E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:33:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="07A5E424-A8A1-3B69-51A4-0F4727735D0C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:33:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="4BCD29B9-82A9-0213-4246-AC6043F77A1B">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:33:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72A073CB-19A6-CB1A-4496-C355AF8813F1" name="TBL_ALBUMES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:33:49 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C4D3E6-E77B-39AE-7761-E1B0C8262AE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F5E5ABE-43EE-554B-72F3-EE578B31AF3C" name="TBL_ALBUMES_TBL_USUARIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:34:08 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7791C51E-2B01-3BE2-1E3B-67E24D9F29E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

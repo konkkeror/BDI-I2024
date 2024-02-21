@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5469633C-0A46-0662-A458-64CB636B322A" name="TBL_FOTOGRAFIAS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:34:34 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTOGRAFIA" id="C53492C3-276D-D79C-FB88-F077E222306A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:35:56 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_SUBIDA" id="246A544E-AE18-2A64-B687-835842FD6C41">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:35:56 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="1AAA4286-5B78-90A1-CC71-A4D34B1255E3">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:35:56 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIMENSIONES" id="33ED8CB9-789E-E539-685D-188CC7B8F9AA">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:37:21 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN" id="3A67ECD9-8240-49AD-7777-AEDB64E9BF35">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:37:21 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ARCHIVO" id="CCF14F82-6F90-3733-570A-24FA1DE35832">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:37:21 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B228F4E-1D6B-7B19-3684-8EF953225B05" name="TBL_FOTOGRAFIAS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:35:56 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C53492C3-276D-D79C-FB88-F077E222306A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

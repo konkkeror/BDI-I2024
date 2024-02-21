@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDD16D94-CC09-792D-60B1-616C572FA2B9" name="TBL_TIPOS_ACREDITACIONES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:05 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ACREDITACION" id="D47C7B5B-B431-0581-DD05-D7AB3A0E011E">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:44 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ACREDITACION" id="1BA32C57-736F-C37E-D3AA-E20B8F175947">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:44 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C3D8B68-264C-7311-A750-D0DC1377571E" name="TBL_TIPOS_ACREDITACIONES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:20:44 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D47C7B5B-B431-0581-DD05-D7AB3A0E011E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1ED86BD-8016-BAB9-0A57-B9443197A764" containerWithKeyObject="C2595218-A819-FAD0-84F4-0C0B8D322197" localFKIndex="30C3CB54-3780-9B91-3EAE-A71DB3668C11" name="TBL_COMPRA_PAQUETES_TBL_PAQUETES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-20 00:48:00 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<referredTableLongName>TBL_PAQUETES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF6C669B-1980-FA31-5147-69764648712B</referredTableID>
+<keyObject>73471B15-1DCF-601D-D133-8FC298D8FCD4</keyObject>
+<referredKeyID>73471B15-1DCF-601D-D133-8FC298D8FCD4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PAQUETE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

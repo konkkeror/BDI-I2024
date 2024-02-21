@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF6DB63D-9ED2-AB04-FE33-28F25D961F5B" containerWithKeyObject="895F401D-B09E-D944-DAB2-0046F11BA1A1" localFKIndex="957320B1-C541-CC18-0173-14CE18C481E1" name="TBL_COMENTARIOS_TBL_PUBLICACIONES_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-13 00:47:51 UTC</createdTime>
+<ownerDesignName>db_facebook</ownerDesignName>
+<referredTableLongName>TBL_PUBLICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A8D7D0C-5AAB-F3F0-8398-F9099A48977D</referredTableID>
+<keyObject>812171B1-3B4A-3B14-180F-0CA4FDEC2B0D</keyObject>
+<referredKeyID>812171B1-3B4A-3B14-180F-0CA4FDEC2B0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PUBLICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

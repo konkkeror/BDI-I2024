@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06B0F004-7ED5-0ECB-395E-D880D0309A5B" name="TBL_HISTORICO_EVENTOS">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:27:07 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EVENTO" id="0FB89266-0613-091A-CB56-C9F3FFB7953C">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:29:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SERVICIO" id="AFA988AE-7276-0638-46BB-08AEEF65F56F">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:30:03 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D5BA79E-CDDF-CD3E-76A7-6A4B1F5AF0D7" referredColumn="925055E0-889F-170E-1F32-D8EBDFAE7CAB"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_EMISORA" id="980264C5-D982-B822-1F6D-B12435847802">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:33:19 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B07C5389-6632-D8E4-A164-4858FB1B7AC4" referredColumn="F40725BA-C899-8F10-4F04-8557BE842CEF"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_RECEPTORA" id="43B00579-AE15-5CC1-E645-00BC7D96488D">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:33:46 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B925304-2BA8-1B7E-E378-DDC67D7D99DD" referredColumn="F40725BA-C899-8F10-4F04-8557BE842CEF"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_INICIO" id="A4996AF0-DCE5-3FA5-4810-5D2D3DEFE919">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:29:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_FIN" id="72CEC758-1F2E-F5F5-C8E0-1FE107EBBE2A">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:29:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="344E3F70-1C51-91C4-0E66-935058A70507">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:29:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D093648C-8E42-C3C8-3548-EDEF32E483A4" name="TBL_HISTORICO_EVENTOS_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:29:57 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FB89266-0613-091A-CB56-C9F3FFB7953C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEE13C9A-FA59-211D-82D4-2E5622A3EE53" name="TBL_HISTORICO_EVENTOS_TBL_SERVICIOS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:30:03 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA988AE-7276-0638-46BB-08AEEF65F56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73ED6B49-D5FE-499E-7427-9C19FD5ED74A" name="TBL_HISTORICO_EVENTOS_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:33:19 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="980264C5-D982-B822-1F6D-B12435847802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2251F70-64E5-045D-D89C-C390B7252A9D" name="TBL_HISTORICO_EVENTOS_TBL_LINEAS_TELEFONICAS_FKv2">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-21 00:33:46 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43B00579-AE15-5CC1-E645-00BC7D96488D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

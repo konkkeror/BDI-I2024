@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3AE6D65-B919-5983-E77C-41EA7385A811" name="TBL_TIPOS_LUGARES">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:14 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="4F10C5F4-7C1A-6143-9048-4F941031AB72">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LUGAR" id="8895CCB6-306D-6459-4002-A960B6D29D24">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75611215-CAAA-16CB-9619-6016E1888F14" name="TBL_TIPOS_LUGARES_PK">
+<createdBy>erick.marin</createdBy>
+<createdTime>2024-02-15 00:37:42 UTC</createdTime>
+<ownerDesignName>db_telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F10C5F4-7C1A-6143-9048-4F941031AB72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
